@@ -82,25 +82,24 @@ cd DocForge
 npm install
 npm run dev
 ```
-CLI Setup
+###CLI Setup
+
 ```bash
 cargo install --path docforge-cli
 # Or from the CLI folder:
 cargo build --release
 ```
-📚 Usage
-Web App
-Start writing in the editor or choose a template.
+##📚 Usage
 
-Use the toolbar to add components (badges, tables, sections).
+###Web App
+1-Start writing in the editor or choose a template.
+2-Use the toolbar to add components (badges, tables, sections).
+3-To translate, select specific text or translate the whole document.
+4-Check README quality and make improvements.
+5-Download the final Markdown file.
 
-To translate, select specific text or translate the whole document.
+###CLI
 
-Check README quality and make improvements.
-
-Download the final Markdown file.
-
-CLI
 ```bash
 # Generate README from template
 docforge init --name MyProject --description "Project description" --template default
@@ -114,31 +113,34 @@ docforge add-table --csv data.csv
 # Translate README
 docforge translate --from en --to fa
 ```
-🧩 Architecture
-Core: Rust (CLI) + React/TypeScript (Web)
-Translation: MyMemory API (free)
-AI: OpenRouter (model: nvidia/nemotron-3.5-lightning:free)
-Deployment: GitHub Pages + Cloudflare Worker (secure proxy for API keys)
-Styling: Tailwind CSS v4 + Glassmorphism
 
-🤝 Contributing
+##🧩 Architecture
+
+- *Core*: Rust (CLI) + React/TypeScript (Web)
+- *Translation*: MyMemory API (free)
+- *AI*: OpenRouter (model: nvidia/nemotron-3.5-lightning:free)
+- *Deployment*: GitHub Pages + Cloudflare Worker (secure proxy for API keys)
+- *Styling*: Tailwind CSS v4 + Glassmorphism
+
+##🤝 Contributing
+
 Contributions are always welcome! To contribute:
-Fork the project
-Create a new branch
-Make your changes
-Submit a pull request
 
-📄 License
-This project is licensed under the MIT License. See LICENSE for details.
+1-Fork the project
+2-Create a new branch
+3-Make your changes
+4-Submit a pull request
 
-🙏 Acknowledgments
-shields.io for badges
-MyMemory for translation
-OpenRouter for AI
-Tailwind CSS for styling
-Lucide Icons for icons
-marked for Markdown rendering
-highlight.js for code highlighting
+##📄 License
 
+This project is licensed under the MIT License. See [![License]](LICENSE) for details.
 
-This README is ready for your repository. Once it’s live, you can use **DocForge** itself to generate translations in Persian or any other language! 🚀
+##🙏 Acknowledgments
+
+- [![shields.io]](https://shields.io/)shields.io for badges
+- MyMemory for translation
+- OpenRouter for AI
+- Tailwind CSS for styling
+- Lucide Icons for icons
+- marked for Markdown rendering
+- highlight.js for code highlighting
