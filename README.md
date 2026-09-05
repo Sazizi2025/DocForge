@@ -1,5 +1,9 @@
 
 <!-- PROJECT LOGO -->
+<p align="center">
+  <img src="https://github.com/Sazizi2025/DocForge/blob/main/public/top.png?raw=true" alt="DocForge Logo" width="150" />
+</p>
+
 <h1 align="center">📘 DocForge</h1>
 
 [![Website](https://img.shields.io/badge/Website-DocForge-blue?style=for-the-badge)](https://sazizi2025.github.io/DocForge/)
