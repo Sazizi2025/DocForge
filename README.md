@@ -144,7 +144,7 @@ This project is licensed under the MIT License. See  for details.
 
 ---
 
-##🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 - [shields.io](https://shields.io/) for badges
 - [MyMemory](https://mymemory.translated.net/) for translation
