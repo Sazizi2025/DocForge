@@ -5,8 +5,12 @@
 [![Stars](https://img.shields.io/github/stars/Sazizi2025/DocForge?style=for-the-badge)](https://github.com/Sazizi2025/DocForge/stargazers)
 
 <!-- PROJECT LOGO -->
+<h1 align="center">📘 DocForge</h1>
+[![Website](https://img.shields.io/badge/Website-DocForge-blue?style=for-the-badge)](https://sazizi2025.github.io/DocForge/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/Sazizi2025/DocForge?style=for-the-badge)](https://github.com/Sazizi2025/DocForge/releases)
+[![Stars](https://img.shields.io/github/stars/Sazizi2025/DocForge?style=for-the-badge)](https://github.com/Sazizi2025/DocForge/stargazers)
 <p align="center">
-  <h1 align="center">📘 DocForge</h1>
   <p align="center">
     A comprehensive tool for generating, editing, translating, and improving README files
     <br />
