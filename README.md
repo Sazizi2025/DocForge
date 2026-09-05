@@ -82,23 +82,25 @@ cd DocForge
 npm install
 npm run dev
 ```
-###CLI Setup
+### CLI Setup
 
 ```bash
 cargo install --path docforge-cli
 # Or from the CLI folder:
 cargo build --release
 ```
-##📚 Usage
+---
 
-###Web App
-1-Start writing in the editor or choose a template.
-2-Use the toolbar to add components (badges, tables, sections).
-3-To translate, select specific text or translate the whole document.
-4-Check README quality and make improvements.
-5-Download the final Markdown file.
+## 📚 Usage
 
-###CLI
+### Web App
+1. Start writing in the editor or choose a template.
+2. Use the toolbar to add components (badges, tables, sections).
+3. To translate, select specific text or translate the whole document.
+4. Check README quality and make improvements.
+5. Download the final Markdown file.
+
+### CLI
 
 ```bash
 # Generate README from template
@@ -113,8 +115,9 @@ docforge add-table --csv data.csv
 # Translate README
 docforge translate --from en --to fa
 ```
+---
 
-##🧩 Architecture
+## 🧩 Architecture
 
 - *Core*: Rust (CLI) + React/TypeScript (Web)
 - *Translation*: MyMemory API (free)
@@ -122,25 +125,31 @@ docforge translate --from en --to fa
 - *Deployment*: GitHub Pages + Cloudflare Worker (secure proxy for API keys)
 - *Styling*: Tailwind CSS v4 + Glassmorphism
 
-##🤝 Contributing
+---
+
+## 🤝 Contributing
 
 Contributions are always welcome! To contribute:
 
-1-Fork the project
-2-Create a new branch
-3-Make your changes
-4-Submit a pull request
+1. Fork the project
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
 
-##📄 License
+---
 
-This project is licensed under the MIT License. See [![License]](LICENSE) for details.
+## 📄 License
+
+This project is licensed under the MIT License. See  for details.
+
+---
 
 ##🙏 Acknowledgments
 
-- [![shields.io]](https://shields.io/)shields.io for badges
-- MyMemory for translation
-- OpenRouter for AI
-- Tailwind CSS for styling
-- Lucide Icons for icons
-- marked for Markdown rendering
-- highlight.js for code highlighting
+- [shields.io](https://shields.io/) for badges
+- [MyMemory](https://mymemory.translated.net/) for translation
+- [OpenRouter](https://openrouter.ai/) for AI
+- [Tailwind CSS](https://tailwindcss.com/) for styling
+- [Lucide Icons](https://lucide.dev/) for icons
+- [marked](https://marked.js.org/) for Markdown rendering
+- [highlight.js](https://highlightjs.org/) for code highlighting
