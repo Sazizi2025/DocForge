@@ -1,7 +1,7 @@
 
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="https://github.com/Sazizi2025/DocForge/blob/main/public/top.png?raw=true" alt="DocForge Logo" width="150" />
+  <img src="https://github.com/Sazizi2025/DocForge/blob/main/public/top.png?raw=true" alt="DocForge Logo"  />
 </p>
 
 <h1 align="center">📘 DocForge</h1>
