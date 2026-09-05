@@ -115,24 +115,16 @@ docforge translate --from en --to fa
 ```
 🧩 Architecture
 Core: Rust (CLI) + React/TypeScript (Web)
-
 Translation: MyMemory API (free)
-
 AI: OpenRouter (model: nvidia/nemotron-3.5-lightning:free)
-
 Deployment: GitHub Pages + Cloudflare Worker (secure proxy for API keys)
-
 Styling: Tailwind CSS v4 + Glassmorphism
 
 🤝 Contributing
 Contributions are always welcome! To contribute:
-
 Fork the project
-
 Create a new branch
-
 Make your changes
-
 Submit a pull request
 
 📄 License
@@ -140,19 +132,12 @@ This project is licensed under the MIT License. See LICENSE for details.
 
 🙏 Acknowledgments
 shields.io for badges
-
 MyMemory for translation
-
 OpenRouter for AI
-
 Tailwind CSS for styling
-
 Lucide Icons for icons
-
 marked for Markdown rendering
-
 highlight.js for code highlighting
 
-text
 
 This README is ready for your repository. Once it’s live, you can use **DocForge** itself to generate translations in Persian or any other language! 🚀
